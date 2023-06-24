@@ -1,0 +1,54 @@
+{
+    "gemachs": {
+        "products": {
+            "babyProducts":[],
+            "personalHygiene ":[],
+            "chairsTablesMattresses": [
+                {
+                    "id": "1",
+                    "OwnerFirstName": "יהויקים",
+                    "OwnerLastName": "שטאובער",
+                    "mail": "yokishtauber@yahoo.com",
+                    "gender": "male",
+                    "userName": "Yoki",
+                    "password": "yoki2648shtauber",
+                    "gemachName": "חסדי אהרון ואסתר",
+                    "city": "ביתר-עילית",
+                    "street": "אור החיים",
+                    "house": "10",
+                    "apartment": "6",
+                    "gemachsMail": "yokishtauber@yahoo.com",
+                    "phone": "+972507539486",
+                    "openingHours": {
+                        "days": "א,ב,ג,ד,ה,ו",
+                        "from": "18:45",
+                        "to": "23:00"
+                    },
+                    "targetAudience": {
+                        "gender": {
+                            "male": "true",
+                            "female": "false"
+                        },
+                        "freeText": ""
+                    },
+                    "paid": "true",
+                    "priceList": "עשרים שקל, עבור איזה כמות שלא יהיה",
+                    "description": "השכרת מיזרנים כיסאות ושולחנות עבור מחיר שימלי, למען תחזוקה של הגמח",
+                    "privacy": {
+                        "showAdress": "true",
+                        "showMail": "true",
+                        "showPhone": "true",
+                        "ToEnableContactForOutsideGemachTargetAudience": "true",
+                        "outsideOfBusinessHoursOnlyInUrgentCases": "false",
+                        "activeOnlyInCaseOfEmergency": "false"
+                    }
+                }
+            ],
+            "medication":[],
+            "food":[],
+            "apparelAndTextiles ":[],
+            "tooling ":[],
+            "other ":[]
+        }
+    }
+}
