@@ -1,15 +1,17 @@
 <template>
   <div>
     <HeaderG />
-    <MainG />
+    <router-link to="/SignIn">Перейти на вторую страницу</router-link>
+
+    <MainHome />
     <FooterG />
   </div>
 </template>
 
 <script>
-import FooterG from './components/FooterG.vue';
-import HeaderG from './components/HeaderG.vue';
-import MainG from './components/MainG.vue';
+import FooterG from './components/general/FooterG.vue';
+import HeaderG from './components/general/HeaderG.vue';
+import MainHome from './components/MainHome.vue';
 
 
 export default {
@@ -17,7 +19,7 @@ export default {
   components: {
     HeaderG,
     FooterG,
-    MainG,
+    MainHome,
   },
   data(){
     return {
