@@ -1,0 +1,259 @@
+{
+    "gemachs": {
+      "products": {
+        "babyProducts": [
+          {
+            "id": "1",
+            "OwnerFirstName": "Александр",
+            "OwnerLastName": "Иванов",
+            "mail": "alex.ivanov@example.com",
+            "gender": "male",
+            "userName": "alex_ivanov",
+            "password": "pass123",
+            "gemachName": "Гемах детских товаров",
+            "subCategory": "Товары для младенцев",
+            "city": "Москва",
+            "street": "Улица Пушкина",
+            "house": "10",
+            "apartment": "5",
+            "gemachsMail": "gemach@example.com",
+            "phone": "+79123456789",
+            "openingHours": {
+              "days": "пн, вт, ср, чт, пт",
+              "from": "09:00",
+              "to": "18:00"
+            },
+            "targetAudience": {
+              "gender": {
+                "male": true,
+                "female": true
+              },
+              "freeText": "Добро пожаловать!"
+            },
+            "paid": false,
+            "priceList": "Цены доступны по запросу",
+            "description": "Гемах предоставляет в аренду и продаёт товары для младенцев",
+            "privacy": {
+              "showAdress": true,
+              "showMail": true,
+              "showPhone": true,
+              "ToEnableContactForOutsideGemachTargetAudience": true,
+              "outsideOfBusinessHoursOnlyInUrgentCases": false,
+              "activeOnlyInCaseOfEmergency": false
+            }
+          }
+        ],
+        "personalHygiene": [
+          {
+            "id": "2",
+            "OwnerFirstName": "Елена",
+            "OwnerLastName": "Смирнова",
+            "mail": "elena_smirnova@example.com",
+            "gender": "female",
+            "userName": "elena_smirnova",
+            "password": "pass456",
+            "gemachName": "Гемах средств личной гигиены",
+            "subCategory": "Средства гигиены",
+            "city": "Санкт-Петербург",
+            "street": "Улица Ленина",
+            "house": "20",
+            "apartment": "10",
+            "gemachsMail": "gemach@example.com",
+            "phone": "+79234567890",
+            "openingHours": {
+              "days": "вт, ср, чт, пт, сб",
+              "from": "10:00",
+              "to": "19:00"
+            },
+            "targetAudience": {
+              "gender": {
+                "male": false,
+                "female": true
+              },
+              "freeText": "Для всех желающих!"
+            },
+            "paid": false,
+            "priceList": "Цены доступны по запросу",
+            "description": "Гемах предлагает бесплатные средства личной гигиены",
+            "privacy": {
+              "showAdress": true,
+              "showMail": true,
+              "showPhone": true,
+              "ToEnableContactForOutsideGemachTargetAudience": true,
+              "outsideOfBusinessHoursOnlyInUrgentCases": false,
+              "activeOnlyInCaseOfEmergency": false
+            }
+          }
+        ],
+        "chairsTablesMattresses": [
+          {
+            "id": "3",
+            "OwnerFirstName": "Михаил",
+            "OwnerLastName": "Петров",
+            "mail": "mikhail_petrov@example.com",
+            "gender": "male",
+            "userName": "mikhail_petrov",
+            "password": "pass789",
+            "gemachName": "Гемах стульев, столов и матрасов",
+            "subCategory": "Мебель",
+            "city": "Екатеринбург",
+            "street": "Улица Гагарина",
+            "house": "5",
+            "apartment": "3",
+            "gemachsMail": "gemach@example.com",
+            "phone": "+79456789012",
+            "openingHours": {
+              "days": "ср, чт, пт, сб",
+              "from": "11:00",
+              "to": "20:00"
+            },
+            "targetAudience": {
+              "gender": {
+                "male": true,
+                "female": false
+              },
+              "freeText": ""
+            },
+            "paid": true,
+            "priceList": "Цены доступны по запросу",
+            "description": "Гемах предоставляет в аренду стулья, столы и матрасы",
+            "privacy": {
+              "showAdress": true,
+              "showMail": true,
+              "showPhone": true,
+              "ToEnableContactForOutsideGemachTargetAudience": true,
+              "outsideOfBusinessHoursOnlyInUrgentCases": false,
+              "activeOnlyInCaseOfEmergency": false
+            }
+          }
+        ],
+        "medication": [
+          {
+            "id": "4",
+            "OwnerFirstName": "Ольга",
+            "OwnerLastName": "Ковалева",
+            "mail": "olga_kovaleva@example.com",
+            "gender": "female",
+            "userName": "olga_kovaleva",
+            "password": "pass101112",
+            "gemachName": "Гемах медикаментов",
+            "subCategory": "Медикаменты",
+            "city": "Казань",
+            "street": "Улица Гагарина",
+            "house": "15",
+            "apartment": "7",
+            "gemachsMail": "gemach@example.com",
+            "phone": "+79567890123",
+            "openingHours": {
+              "days": "пн, вт, ср, чт",
+              "from": "09:00",
+              "to": "17:00"
+            },
+            "targetAudience": {
+              "gender": {
+                "male": true,
+                "female": true
+              },
+              "freeText": "Только для взрослых"
+            },
+            "paid": false,
+            "priceList": "Бесплатно",
+            "description": "Гемах предлагает бесплатные медикаменты",
+            "privacy": {
+              "showAdress": true,
+              "showMail": true,
+              "showPhone": true,
+              "ToEnableContactForOutsideGemachTargetAudience": true,
+              "outsideOfBusinessHoursOnlyInUrgentCases": false,
+              "activeOnlyInCaseOfEmergency": false
+            }
+          }
+        ],
+        "food": [
+          {
+            "id": "5",
+            "OwnerFirstName": "Анна",
+            "OwnerLastName": "Сидорова",
+            "mail": "anna_sidorova@example.com",
+            "gender": "female",
+            "userName": "anna_sidorova",
+            "password": "pass131415",
+            "gemachName": "Гемах продуктов питания",
+            "subCategory": "Продукты питания",
+            "city": "Новосибирск",
+            "street": "Улица Ленина",
+            "house": "30",
+            "apartment": "12",
+            "gemachsMail": "gemach@example.com",
+            "phone": "+79678901234",
+            "openingHours": {
+              "days": "вт, чт, пт, сб",
+              "from": "10:00",
+              "to": "18:00"
+            },
+            "targetAudience": {
+              "gender": {
+                "male": true,
+                "female": true
+              },
+              "freeText": ""
+            },
+            "paid": false,
+            "priceList": "Цены доступны по запросу",
+            "description": "Гемах предоставляет бесплатные продукты питания",
+            "privacy": {
+              "showAdress": true,
+              "showMail": true,
+              "showPhone": true,
+              "ToEnableContactForOutsideGemachTargetAudience": true,
+              "outsideOfBusinessHoursOnlyInUrgentCases": false,
+              "activeOnlyInCaseOfEmergency": false
+            }
+          }
+        ],
+        "apparelAndTextiles": [
+          {
+            "id": "6",
+            "OwnerFirstName": "Иван",
+            "OwnerLastName": "Смирнов",
+            "mail": "ivan_smirnov@example.com",
+            "gender": "male",
+            "userName": "ivan_smirnov",
+            "password": "pass161718",
+            "gemachName": "Гемах одежды и текстиля",
+            "subCategory": "Одежда и текстиль",
+            "city": "Ростов-на-Дону",
+            "street": "Улица Гагарина",
+            "house": "25",
+            "apartment": "8",
+            "gemachsMail": "gemach@example.com",
+            "phone": "+79789012345",
+            "openingHours": {
+              "days": "ср, чт, пт, сб",
+              "from": "11:00",
+              "to": "19:00"
+            },
+            "targetAudience": {
+              "gender": {
+                "male": true,
+                "female": true
+              },
+              "freeText": "Для всех желающих!"
+            },
+            "paid": false,
+            "priceList": "Бесплатно",
+            "description": "Гемах предлагает бесплатную одежду и текстиль",
+            "privacy": {
+              "showAdress": true,
+              "showMail": true,
+              "showPhone": true,
+              "ToEnableContactForOutsideGemachTargetAudience": true,
+              "outsideOfBusinessHoursOnlyInUrgentCases": false,
+              "activeOnlyInCaseOfEmergency": false
+            }
+          }
+        ]
+      }
+    }
+  }
+  
