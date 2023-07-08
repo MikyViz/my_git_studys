@@ -1,15 +1,20 @@
-import Vue from 'vue';
-import Router from 'vue-router';
-import SignIn from './components/SignIn/SignIn.vue';
+import {createRouter, createWebHistory} from 'vue-router';
+import SignIn from '@/components/SignIn/SignIn';
+import LogIn from '@/components/LogIn/LogIn.vue';
 
-Vue.use(Router);
+const routes = [
+  {         
+    path: "/",
+    name: "SignIn",
+    component: SignIn,
+},
+  { path: '/login', component: LogIn}
+]
 
-export default new Router({
-  routes: [
-    {
-      path: '/SignIn',
-      name: 'SignIn',
-      component: SignIn
-    }
-  ]
-});
+const VueRouter = createRouter({
+  // 4. Provide the history implementation to use. We are using the hash history for simplicity here.
+  history: createWebHistory(),
+  routes, // short for `routes: routes`
+})
+
+export default VueRouter

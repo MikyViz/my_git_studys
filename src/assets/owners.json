@@ -1,8 +1,89 @@
 {
     "gemachs": {
         "products": {
-            "babyProducts":[],
-            "personalHygiene ":[],
+            "babyProducts": [
+                {
+                    "id": "3",
+                    "OwnerFirstName": "Екатерина",
+                    "OwnerLastName": "Смирнова",
+                    "mail": "ekaterina_smirnova@example.com",
+                    "gender": "female",
+                    "userName": "ekaterina_smirnova",
+                    "password": "pass192021",
+                    "gemachName": "Гемах товаров для младенцев",
+                    "subCategory": "Товары для малышей",
+                    "city": "Санкт-Петербург",
+                    "street": "Улица Лермонтова",
+                    "house": "15",
+                    "apartment": "4",
+                    "gemachsMail": "gemach@example.com",
+                    "phone": "+79801234567",
+                    "openingHours": {
+                      "days": "пн, ср, пт",
+                      "from": "09:00",
+                      "to": "17:00"
+                    },
+                    "targetAudience": {
+                      "gender": {
+                        "male": false,
+                        "female": true
+                      },
+                      "freeText": ""
+                    },
+                    "paid": true,
+                    "priceList": "Цены доступны по запросу",
+                    "description": "Гемах предлагает аренду и продажу товаров для младенцев",
+                    "privacy": {
+                      "showAdress": true,
+                      "showMail": true,
+                      "showPhone": true,
+                      "ToEnableContactForOutsideGemachTargetAudience": true,
+                      "outsideOfBusinessHoursOnlyInUrgentCases": false,
+                      "activeOnlyInCaseOfEmergency": false
+                    }
+                  }
+            ],
+            "personalHygiene ": [
+                {"id": "4",
+                "OwnerFirstName": "Дмитрий",
+                "OwnerLastName": "Ковалев",
+                "mail": "dmitry_kovalev@example.com",
+                "gender": "male",
+                "userName": "dmitry_kovalev",
+                "password": "pass222324",
+                "gemachName": "Гемах средств личной гигиены",
+                "subCategory": "Гигиена",
+                "city": "Москва",
+                "street": "Улица Горького",
+                "house": "5",
+                "apartment": "2",
+                "gemachsMail": "gemach@example.com",
+                "phone": "+79901234567",
+                "openingHours": {
+                  "days": "вт, чт",
+                  "from": "10:00",
+                  "to": "16:00"
+                },
+                "targetAudience": {
+                  "gender": {
+                    "male": true,
+                    "female": true
+                  },
+                  "freeText": "Приходите сами или приводите друзей!"
+                },
+                "paid": false,
+                "priceList": "Цены доступны по запросу",
+                "description": "Гемах предоставляет бесплатные средства личной гигиены",
+                "privacy": {
+                  "showAdress": true,
+                  "showMail": true,
+                  "showPhone": true,
+                  "ToEnableContactForOutsideGemachTargetAudience": true,
+                  "outsideOfBusinessHoursOnlyInUrgentCases": false,
+                  "activeOnlyInCaseOfEmergency": false
+                }
+              }
+            ],
             "chairsTablesMattresses": [
                 {
                     "id": "1",
@@ -42,13 +123,93 @@
                         "outsideOfBusinessHoursOnlyInUrgentCases": "false",
                         "activeOnlyInCaseOfEmergency": "false"
                     }
-                }
+                },
+                {
+                    "id": "5",
+                    "OwnerFirstName": "Алексей",
+                    "OwnerLastName": "Иванов",
+                    "mail": "alexey_ivanov@example.com",
+                    "gender": "male",
+                    "userName": "alexey_ivanov",
+                    "password": "pass252627",
+                    "gemachName": "Гемах стульев, столов и матрасов",
+                    "subCategory": "Мебель",
+                    "city": "Екатеринбург",
+                    "street": "Улица Мира",
+                    "house": "8",
+                    "apartment": "3",
+                    "gemachsMail": "gemach@example.com",
+                    "phone": "+79123456789",
+                    "openingHours": {
+                      "days": "вт, чт, сб",
+                      "from": "11:00",
+                      "to": "19:00"
+                    },
+                    "targetAudience": {
+                      "gender": {
+                        "male": true,
+                        "female": true
+                      },
+                      "freeText": "Добро пожаловать в наш гемах!"
+                    },
+                    "paid": true,
+                    "priceList": "Цены доступны по запросу",
+                    "description": "Гемах предлагает аренду стульев, столов и матрасов",
+                    "privacy": {
+                      "showAdress": true,
+                      "showMail": true,
+                      "showPhone": true,
+                      "ToEnableContactForOutsideGemachTargetAudience": true,
+                      "outsideOfBusinessHoursOnlyInUrgentCases": false,
+                      "activeOnlyInCaseOfEmergency": false
+                    }
+                  }
             ],
-            "medication":[],
-            "food":[],
-            "apparelAndTextiles ":[],
-            "tooling ":[],
-            "other ":[]
+            "medication": [],
+            "food": [],
+            "apparelAndTextiles ": [],
+            "tooling ": [],
+            "other ": [
+                {
+                    "id": 2,
+                    "OwnerFirstName": "Иван",
+                    "OwnerLastName": "Иванов",
+                    "mail": "ivanov@mail.ru",
+                    "gender": "male",
+                    "userName": "ivanov123",
+                    "password": "qwerty",
+                    "gemachName": "Гмах книг",
+                    "city": "Москва",
+                    "street": "Ленина",
+                    "house": 10,
+                    "apartment": 5,
+                    "gemachsMail": "bookgemach@mail.ru",
+                    "phone": "+7(495)123-45-67",
+                    "openingHours": {
+                        "days": "א,ד,ה",
+                        "from": 10,
+                        "to": 18
+                    },
+                    "targetAudience": {
+                        "gender": {
+                            "male": true,
+                            "female": true
+                        },
+                        "free text": ""
+                    },
+                    "paid": false,
+                    "priceList": "",
+                    "description": "Гмах книг предлагает бесплатное пользование различными книгами по разным темам. В наличии есть художественная, научная, детская и другая литература.",
+                    "privacy": {
+                        "showAdress": true,
+                        "showMail": true,
+                        "showPhone": true,
+                        "ToEnableContactForOutsideGemachTargetAudience": true,
+                        "outsideOfBusinessHoursOnlyInUrgentCases": true,
+                        "activeOnlyInCaseOfEmergency": false
+                    }
+                }
+            ]
         }
     }
 }

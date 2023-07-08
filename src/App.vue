@@ -1,25 +1,22 @@
 <template>
   <div>
-    <HeaderG />
-    <router-link to="/SignIn">Перейти на вторую страницу</router-link>
+    <routerView></routerView>
+        <!-- <router-link to="/SignIn">Перейти на вторую страницу</router-link> -->
 
-    <MainHome />
-    <FooterG />
   </div>
 </template>
 
 <script>
-import FooterG from './components/general/FooterG.vue';
-import HeaderG from './components/general/HeaderG.vue';
-import MainHome from './components/MainHome.vue';
+//import FooterG from './components/general/FooterG.vue';
+//import HeaderG from './components/general/HeaderG.vue';
+//import MainHome from './components/MainHome.vue';
+  import {RouterView} from 'vue-router';
 
 
 export default {
   name: "App",
   components: {
-    HeaderG,
-    FooterG,
-    MainHome,
+    RouterView
   },
   data(){
     return {

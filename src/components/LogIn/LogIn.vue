@@ -1,17 +1,22 @@
 <template>
   <div>
-    <p>Sign in</p>
+
+      <div> Login </div>
+    <FooterG />
   </div>
 </template>
 
 <script>
-//import FooterG from '../general/FooterG.vue';
+import FooterG from '../general/FooterG.vue';
 //import HeaderG from '../general/HeaderG.vue';
-//import InitFiled from '../SignIn/InitFiled.vue';
 export default {
-  name: "SignIn",
-};
+ name: "LogIn",
+  components: {
+    FooterG,
+  }
+}
 </script>
 
 <style>
+
 </style>
